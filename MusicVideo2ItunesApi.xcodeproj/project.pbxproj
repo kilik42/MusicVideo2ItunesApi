@@ -16,12 +16,12 @@
 
 /* Begin PBXFileReference section */
 		108281CA1F05511200CC5F57 /* MusicVideo2ItunesApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicVideo2ItunesApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		108281CD1F05511200CC5F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		108281CD1F05511200CC5F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MusicVideo2ItunesApi/AppDelegate.swift; sourceTree = "<group>"; };
 		108281CF1F05511200CC5F57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		108281D21F05511200CC5F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		108281D41F05511200CC5F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		108281D41F05511200CC5F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MusicVideo2ItunesApi/Assets.xcassets; sourceTree = "<group>"; };
 		108281D71F05511200CC5F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		108281D91F05511200CC5F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108281D91F05511200CC5F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MusicVideo2ItunesApi/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,48 @@
 		108281CC1F05511200CC5F57 /* MusicVideo2ItunesApi */ = {
 			isa = PBXGroup;
 			children = (
-				108281CD1F05511200CC5F57 /* AppDelegate.swift */,
-				108281CF1F05511200CC5F57 /* ViewController.swift */,
-				108281D11F05511200CC5F57 /* Main.storyboard */,
-				108281D41F05511200CC5F57 /* Assets.xcassets */,
-				108281D61F05511200CC5F57 /* LaunchScreen.storyboard */,
-				108281D91F05511200CC5F57 /* Info.plist */,
+				108281E21F0553C900CC5F57 /* Supporting Files */,
+				108281DF1F05537C00CC5F57 /* Model */,
+				108281E11F05539600CC5F57 /* View */,
+				108281E01F05538C00CC5F57 /* Controller */,
 			);
 			path = MusicVideo2ItunesApi;
+			sourceTree = "<group>";
+		};
+		108281DF1F05537C00CC5F57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		108281E01F05538C00CC5F57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				108281CF1F05511200CC5F57 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		108281E11F05539600CC5F57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				108281D61F05511200CC5F57 /* LaunchScreen.storyboard */,
+				108281D11F05511200CC5F57 /* Main.storyboard */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		108281E21F0553C900CC5F57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				108281D91F05511200CC5F57 /* Info.plist */,
+				108281CD1F05511200CC5F57 /* AppDelegate.swift */,
+				108281D41F05511200CC5F57 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +185,7 @@
 				108281D21F05511200CC5F57 /* Base */,
 			);
 			name = Main.storyboard;
+			path = MusicVideo2ItunesApi;
 			sourceTree = "<group>";
 		};
 		108281D61F05511200CC5F57 /* LaunchScreen.storyboard */ = {
@@ -159,6 +194,7 @@
 				108281D71F05511200CC5F57 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = MusicVideo2ItunesApi;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
